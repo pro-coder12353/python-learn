@@ -43,3 +43,28 @@ if for_sale:
     print(" That item is for sale")
 else:
     print("That item is not for sale")
+
+
+
+"""
+Variable Names:
+rules:
+1. A variable name must start witha a letter or the underscore
+2. A variable name caanot start with a number
+3. A variable name can only contain alpha-numeric characters and underscored
+4. Variable names are case-sensitive
+5. A variable name cannot be any of the python keywards.
+
+
+Multi words variable Names
+
+1. Camel case
+each word, except the first, starts with a capital letter
+
+2. Pascal Case
+Each word starts with a capital letter
+
+3. Snake Case
+Each word is seperated by an underscore character.
+
+"""
