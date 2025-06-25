@@ -1,0 +1,163 @@
+Basic Data type and Function Cheatsheet
+Here's a quick reference for data types in Python.
+
+Data types
+Data type
+
+Meaning
+
+Example
+
+string
+
+Text
+
+'Hello', 'Testing 123'
+
+integer
+
+Numbers
+
+-5, 4, 3, 2, 0
+
+float
+
+Decimals
+
+2.4, 5.2, 1000.00
+
+Flow Control
+Comparison operators
+Operator
+
+Meaning
+
+Example
+
+==
+
+Equals
+
+a == b
+
+!=
+
+Not Equal
+
+a != b
+
+<
+
+Less than
+
+a < b
+
+>
+
+Greater than
+
+a > b
+
+<=
+
+Less than or Equal to
+
+a <= b
+
+>=
+
+Greater than or Equal to
+
+a >= b
+
+Indentation
+Indentation is used to define code blocks in Python. Unlike many programming languages that use braces {} to group code, Python uses indentation.
+
+Indentation is mandatory in Python and is used to indicate which statements belong to loops, functions, conditionals, and other structures.
+
+1234
+if x > 0:  # Colon indicates the start of the block
+    print("Positive")  # Indented 
+else:
+    print("Non-positive") # Indented
+Comments
+Single-line comments
+Placing a  #  symbol in front of the text you want to be a comment causes Python to ignore everything from that point until the end of the current line.
+
+12
+# Single Line comment
+
+Reset
+Multi-line comments
+Triple Quotes (''' or """): Python uses triple single or double quotes to create multi-line comments. These are typically used for docstrings or comments spanning multiple lines.
+
+123
+# This is a multiline comment
+# which can be used for long comments
+
+Reset
+Inline/code comments
+The  #  symbol will cause Python to ignore everything from that point until the end of the current line, so inline comments can be created in this way.
+
+12
+x = 1 # assigns value of 1 to x
+
+Reset
+Colon (:): Used to indicate the start of a code block, such as in loops, conditionals, and function definitions.
+
+12
+if x > 0:  # Colon starts the block
+    print("Positive")
+Built-in Functions
+print()
+This function looks for the default output device, your terminal, and displays the value passed to it.
+
+12
+print("Hello")
+
+Reset
+input()
+This function looks for the default input device, your keyboard, and captures the value. This value can then be assigned or used.
+
+123
+print("Where do you live?")
+location = input()
+print("So you live in " + location)
+Reset
+Note: The code block above will create a prompt for the user asking "Where do you live?". The user will then enter the response and press the Return key to continue execution of the remaining code. The response entered by the user is stored, returned as an output, or can be assigned to some variable depending on the context of usage. 
+
+len()
+This function returns the length or the count of the elements contained within the structure it is applied on. This may be a string, array, list, tuple, dictionary or any sequence.
+
+12
+len("Hello")
+5
+Reset
+str()
+This function can be used to convert the provided value into a String
+
+123
+str(55)
+'55'
+
+Reset
+int()
+This function can be used to convert the provided value into an int
+
+12
+int('75')
+75
+Reset
+float()
+This function can be used to convert the provided value into a float
+
+1234
+some_int = 10
+float(some_int)
+10.0
+
+Reset
+Creating Functions
+Functions in Python require a keyword to define them : def   followed by an identifier (a name) this forms the function signature. The body of the function contains the code to run when the function is called.
+
+12345678
